@@ -1,15 +1,9 @@
 [user]
 	email = akmccrate@gmail.com
-[gitflow "feature.finish"]
-	no-ff = yes
 [alias]
-	l = log --graph --all --pretty
+	l = log
 	co = checkout
 	s = status
 	d = diff
 	b = branch
 	unstage = reset HEAD --
-	ffs = flow feature start
-	ffp = flow feature publish
-[push]
-	default = simple
